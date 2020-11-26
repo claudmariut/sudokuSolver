@@ -1,7 +1,7 @@
 # sudokuSolver
 Sudoku Solver using Backtracking Algorithm. Implementing Turtle module to represent how th sudoku board and how the algorithm works.
 
-To this date, this project needs to files to run. One file called SudokuSolver.py, that will take care of how the algorithm works to find a solution.
+To this date, this project needs two files to run. One file called SudokuSolver.py, that will take care of how the algorithm works to find a solution.
 The other file, called SudokuBuilder.py, uses Turtle module from python to build an internal representation of the sudoku table, and to see "live" how
 the backtracking algorithm builds the solution. 
 
