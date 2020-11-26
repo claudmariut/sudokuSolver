@@ -6,10 +6,8 @@ The other file, called SudokuBuilder.py, uses Turtle module from python to build
 the backtracking algorithm builds the solution. 
 
 Note, that SudokuSolve.py imports the file to make the internal representation, and take care of the details.
-Only thing is required to run the program is to create an instance of SudokeSolver class, that will take an array representing the board as a parameter.
-Once the instance is created, we need to execute the function .getSolution() of that instance. The program will do the rest.
+Only thing is required to run the program is to create an instance of SudokeSolver class, that will take an array representing the board as a parameter (array is created using Numpy module). Once the instance is created, we need to execute the function .getSolution() of that instance. The program will do the rest.
 
-For testing purposes, the file already contains an array of an unsolved sudoku. In future updates, I will work on make some comments on the SudokuBuilder.py
-file, for those more insterested on how the visual aspect works. 
+For testing purposes, the file already contains an array of an unsolved sudoku. In future updates, I will work on make some comments on the SudokuBuilder.py file, for those more insterested on how the visual aspect works. Also, I will implement a function that can import unsolved sudokus from text documents and converted to an array to make it easier for the user.
 
 Hope you enjoy it!
